@@ -6,9 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run ruff-check
-        uses: jpetrucciani/ruff-check@main
-        with:
-          path: 'mappshow/backend'
-
+      - name: Action check
+        run: |
+        pip install -r requirements.txt
+        python ci.py
 
