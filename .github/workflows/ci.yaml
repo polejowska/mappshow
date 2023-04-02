@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Ruff Check
-      - with: 
+        with: 
           path: 'backend/'
 
 
