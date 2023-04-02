@@ -3,17 +3,11 @@ on: [push]
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.9
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.9
-      - name: Install dependencies with conda file
-        uses: conda-incubator/setup-miniconda@v2
-        with:
-          environment-file: env-mac.yml
-          activate-environment: lmappshow
-          python-version: 3.9
-          auto-activate-base: false
+      - uses: actions/checkout@v3
+      - name: Ruff Check
+      - with: 
+          path: 'backend/'
+
+
