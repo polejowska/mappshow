@@ -8,4 +8,4 @@ jobs:
     - name: Ruff Check
       uses: jpetrucciani/ruff-check@0.0.239
       with:
-        path: '../backend'
+        path: '../../backend'
