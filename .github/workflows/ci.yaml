@@ -6,8 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Ruff Check
-        with: 
-          path: 'backend/'
+      - name: Run ruff-check
+        uses: jpetrucciani/ruff-check@main
+        with:
+          path: 'mappshow/backend'
 
 
