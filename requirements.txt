@@ -129,7 +129,7 @@ kiwisolver==1.4.4
 langcodes==3.3.0
 lazy_loader==0.1
 libclang==15.0.6.1
-lightgbm==3.3.5.99
+lightgbm==3.3.5
 lightning-utilities==0.8.0
 lime==0.2.0.1
 llvmlite==0.39.1
