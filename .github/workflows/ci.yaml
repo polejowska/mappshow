@@ -1,13 +1,13 @@
-name: mappshow ci
-on: [push]
+# name: mappshow ci
+# on: [push]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Action check
-        run: |
-          pip install -r requirements.txt
-          python ci.py
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - name: Action check
+#         run: |
+#           pip install -r requirements.txt
+#           python ci.py
 
