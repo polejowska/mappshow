@@ -8,7 +8,7 @@ permissions:
   pull-requests: write
 
 env:
-  MAGIC_COMMENT: "/wandb" # this is a parameter you can change
+  MAGIC_COMMENT: "/test" # this is a parameter you can change
 
 jobs:
   see-comment:
