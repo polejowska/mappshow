@@ -1,5 +1,5 @@
 name: ChatOps
-on: issue_comment # this is used for PRs https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request_review
+on: pull_request_review_comment # this is used for PRs https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request_review
 
 
 permissions:
